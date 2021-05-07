@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main()
+{
+	int x, y;
+
+	printf("첫번째 수 = ");
+	scanf("%d", &x);
+	printf("두번째 수 = ");
+	scanf("%d", &y);
+
+	printf("큰 수 = %d\n", (x > y) ? x : y);                    // x>y가 참이면 x가 결과값, 거짓이면 y가 결과값.
+	printf("작은 수 = %d\n", (x < y) ? x : y);                 // x<y가 참이면 x가 결과값, 거짓이면 y가 결과값.
+
+	return 0;
+}
